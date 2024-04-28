@@ -60,7 +60,7 @@ body {
   color: #7a746e;
 }
 
-/* normalize css problem   fixed */
+/* normalize css problem fixed */
 h1 {
   margin: 0;
 }
@@ -73,7 +73,6 @@ h1 {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-
 
 main {
   flex-grow: 1;
@@ -184,7 +183,6 @@ main {
 .work__container {
   display: inline-block;
   margin-left: 170rem;
-  margin-right:150rem;
   text-align: center;
   align-items: center;
   overflow: hidden;
@@ -239,6 +237,7 @@ main {
 /* tablet */
 
 @media (max-width: 900px) {
+ 
   .container {
     padding-right: 4rem;
     padding-left: 4rem;
@@ -292,6 +291,8 @@ main {
   .arrows {
     margin-bottom: 120px;
   }
+
+ 
 
   .footer {
     padding-top: 20px;
@@ -382,6 +383,7 @@ main {
     margin-bottom: 100px;
   }
 
+  
   .footer {
     padding-top: 15px;
     padding-bottom: 32px;

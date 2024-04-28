@@ -1,18 +1,18 @@
 /* plus-jakarta-sans-500 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2");
 }
-/* plus-jakarta-sans-700 - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2");
 }
 :root {
   --black-color: #030303;
@@ -65,7 +65,7 @@ h1 {
 
 .container {
   width: 100%;
-  max-width: 1211px; /* it depends on you project */
+  max-width: 1211px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 5rem;
@@ -79,15 +79,13 @@ main {
 .header {
   padding-top: 3.4rem;
 }
-.container {
-}
+
 .header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header__logo {
-}
+
 .btn {
   padding: 14px 45px;
   border-radius: 28px;
@@ -102,10 +100,7 @@ main {
     background-color: #755cde;
   }
 }
-.main {
-}
-.hero {
-}
+
 .hero__container {
   padding-top: 6.6rem;
   padding-bottom: 8rem;
@@ -114,8 +109,7 @@ main {
   align-items: center;
   gap: 2.3rem;
 }
-.container {
-}
+
 .hero__title {
   font-size: 5.6rem;
   line-height: 1.3;
@@ -128,10 +122,6 @@ main {
   max-width: 730px;
 }
 
-.services {
-}
-.container {
-}
 .services__container {
   display: flex;
   gap: 2.4rem;
@@ -191,10 +181,7 @@ main {
   align-items: center;
   gap: 12.5rem;
 }
-.container {
-}
-.about__avatar {
-}
+
 .about__info {
   display: flex;
   flex-direction: column;
@@ -205,10 +192,7 @@ main {
   font-size: 4rem;
   line-height: 1.3;
 }
-.about__text {
-}
-.btn {
-}
+
 .about__btn {
   background-color: #eb7565;
   align-self: flex-start;
@@ -217,8 +201,6 @@ main {
   }
 }
 
-.work {
-}
 .work__container {
   overflow: hidden;
 }
@@ -252,20 +234,6 @@ main {
   margin-bottom: 88px;
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(-10px);
-  }
-  20% {
-    transform: translateX(-700px);
-  }
-  40% {
-    transform: translateX(-1290px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 .arrow {
   cursor: pointer;
   padding: 2.4rem;
@@ -276,10 +244,6 @@ main {
   }
 }
 
-.cta {
-}
-.container {
-}
 .cta__container {
   max-width: 1111px;
   border-radius: 10px;
@@ -297,12 +261,6 @@ main {
   font-size: 4rem;
   line-height: 1.3;
   margin-bottom: 25px;
-}
-.cta__text {
-}
-.btn {
-}
-.about__btn {
 }
 
 .cta__btn {
@@ -324,72 +282,37 @@ main {
     padding-right: 4rem;
     padding-left: 4rem;
   }
-  .header__container {
-  }
-  .header__logo {
-  }
-  .btn {
-  }
-  .header__btn {
-  }
-  .main {
-  }
-  .hero {
-  }
+
   .hero__container {
     padding-top: 6.4rem;
     padding-bottom: 6.4rem;
     gap: 2.7rem;
   }
-  .container {
-  }
+
   .hero__title {
     font-size: 4.4rem;
   }
   .hero__text {
     max-width: 573px;
   }
-  .services {
-  }
-  .container {
-  }
+
   .services__container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .services__two {
-  }
-  .graphic__design {
-  }
-  .services__second {
-  }
-  .services__second-two {
-  }
-  .ui-img {
-  }
-  .app-img {
-  }
-  .ill-img {
-  }
+
   .services__third {
     display: flex;
     flex-direction: row;
   }
-  .photo {
-  }
-  .md-img {
-  }
 
-  .about {
-  }
   .about__container {
     padding-top: 120px;
     padding-bottom: 120px;
     gap: 6.9rem;
   }
-  .container {
-  }
+
   .about__avatar {
     width: 364px;
     height: 364px;
@@ -401,33 +324,14 @@ main {
   .about__title {
     font-size: 3.2rem;
   }
-  .about__text {
-  }
-  .btn {
-  }
-  .about__btn {
-  }
-  .work {
-  }
-  .work__container {
-  }
-  .work__title {
-  }
-  .work__list {
-  }
+
   .work__img {
     width: calc(100% / 1.2);
   }
   .arrows {
     margin-bottom: 120px;
   }
-  .arrow {
-  }
 
-  .cta {
-  }
-  .container {
-  }
   .cta__container {
     padding: 56px 75px 64px 75px;
     max-width: 690px;
@@ -444,10 +348,7 @@ main {
   .cta__text {
     margin-bottom: 25px;
   }
-  .btn {
-  }
-  .about__btn {
-  }
+
   .footer {
     padding-top: 20px;
     padding-bottom: 56px;
@@ -473,19 +374,13 @@ main {
     font-size: 1.4rem;
     padding: 8px 28px;
   }
-  .header__btn {
-  }
-  .main {
-  }
-  .hero {
-  }
+
   .hero__container {
     padding-top: 3.2rem;
     padding-bottom: 3.2rem;
     gap: 1.6rem;
   }
-  .container {
-  }
+
   .hero__title {
     font-size: 3.6rem;
   }
@@ -504,27 +399,11 @@ main {
   .services__two {
     flex-direction: column;
   }
-  .graphic__design {
-  }
-  .services__second {
-  }
-  .services__second-two {
-  }
-  .ui-img {
-  }
-  .app-img {
-  }
-  .ill-img {
-  }
+
   .services__third {
     flex-direction: column;
   }
-  .photo {
-  }
-  .md-img {
-  }
-  .about {
-  }
+
   .about__container {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -575,13 +454,7 @@ main {
   .arrows {
     margin-bottom: 100px;
   }
-  .arrow {
-  }
 
-  .cta {
-  }
-  .container {
-  }
   .cta__container {
     padding: 48px 24px;
   }
@@ -594,10 +467,7 @@ main {
   .cta__text {
     font-size: 16px;
   }
-  .btn {
-  }
-  .about__btn {
-  }
+
   .footer {
     padding-top: 15px;
     padding-bottom: 32px;

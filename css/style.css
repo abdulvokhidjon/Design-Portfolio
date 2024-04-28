@@ -182,9 +182,9 @@ main {
 
 .work__container {
   display: inline-block;
-  margin-left: 170rem;
+  /* margin-left: 170rem;
   text-align: center;
-  align-items: center;
+  align-items: center; */
   overflow: hidden;
 }
 .work__title {
@@ -208,6 +208,19 @@ main {
   width: calc(100% / 2);
   max-width: 540px;
   height: 360px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(-800px);
+  }
+  100% {
+    transform: translateX(10);
+  }
 }
 
 .arrows {
@@ -237,7 +250,6 @@ main {
 /* tablet */
 
 @media (max-width: 900px) {
- 
   .container {
     padding-right: 4rem;
     padding-left: 4rem;
@@ -291,8 +303,6 @@ main {
   .arrows {
     margin-bottom: 120px;
   }
-
- 
 
   .footer {
     padding-top: 20px;
@@ -383,7 +393,6 @@ main {
     margin-bottom: 100px;
   }
 
-  
   .footer {
     padding-top: 15px;
     padding-bottom: 32px;

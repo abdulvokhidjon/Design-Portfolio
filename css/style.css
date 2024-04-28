@@ -202,6 +202,10 @@ main {
 }
 
 .work__container {
+  display: inline-block;
+  margin-left: 170rem;
+  text-align: center;
+  align-items: center;
   overflow: hidden;
 }
 .work__title {
@@ -388,10 +392,7 @@ main {
     font-size: 1.6rem;
     max-width: 285px;
   }
-  .services {
-  }
-  .container {
-  }
+
   .services__container {
     flex-direction: column;
     align-items: center;
@@ -412,8 +413,7 @@ main {
     gap: 4rem;
     align-items: center;
   }
-  .container {
-  }
+
   .about__avatar {
     width: 300px;
     height: 300px;
@@ -430,16 +430,11 @@ main {
     text-align: center;
     font-size: 1.6rem;
   }
-  .btn {
-  }
+
   .about__btn {
     align-self: center;
   }
 
-  .work {
-  }
-  .work__container {
-  }
   .work__title {
     margin-bottom: 32px;
   }

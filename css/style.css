@@ -237,7 +237,6 @@ main {
 /* tablet */
 
 @media (max-width: 900px) {
- 
   .container {
     padding-right: 4rem;
     padding-left: 4rem;
@@ -291,8 +290,6 @@ main {
   .arrows {
     margin-bottom: 120px;
   }
-
- 
 
   .footer {
     padding-top: 20px;
@@ -381,19 +378,6 @@ main {
   }
   .arrows {
     margin-bottom: 100px;
-  }
-
-  .cta__container {
-    padding: 48px 24px;
-  }
-  .cta__info {
-    max-width: 295px;
-  }
-  .cta__title {
-    font-size: 26px;
-  }
-  .cta__text {
-    font-size: 16px;
   }
 
   .footer {

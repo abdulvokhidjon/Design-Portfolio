@@ -35,3 +35,19 @@
         margin-bottom: 25px;
       }
   }
+
+  @media (max-width: 450px) {
+    .cta__container {
+        padding: 48px 24px;
+      }
+      .cta__info {
+        max-width: 295px;
+      }
+      .cta__title {
+        font-size: 26px;
+      }
+      .cta__text {
+        font-size: 16px;
+      }
+    
+  }

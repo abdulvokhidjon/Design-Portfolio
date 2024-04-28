@@ -181,10 +181,6 @@ main {
 }
 
 .work__container {
-  display: inline-block;
-  /* margin-left: 170rem;
-  text-align: center;
-  align-items: center; */
   overflow: hidden;
 }
 .work__title {
@@ -198,6 +194,7 @@ main {
 }
 .work__list {
   display: flex;
+  align-items: center;
   gap: 3rem;
   margin-bottom: 5.6rem;
   transition: 1s ease-in-out;
@@ -212,14 +209,14 @@ main {
 
 @keyframes slide {
   0% {
-    transform: translateX(-10px);
+    transform: translateX(1600px);
   }
 
   50% {
-    transform: translateX(-800px);
+    transform: translateX(-1600px);
   }
   100% {
-    transform: translateX(10);
+    transform: translateX(1600px);
   }
 }
 

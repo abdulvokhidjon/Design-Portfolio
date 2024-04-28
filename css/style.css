@@ -25,8 +25,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  margin-left: auto;
-  margin-right:auto;
 }
 
 html {
@@ -186,6 +184,7 @@ main {
 .work__container {
   display: inline-block;
   margin-left: 170rem;
+  margin-right:150rem;
   text-align: center;
   align-items: center;
   overflow: hidden;

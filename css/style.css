@@ -1,4 +1,6 @@
-/* plus-jakarta-sans-500 - latin */
+@import url(./btn.css);
+@import url(./cta.css);
+
 @font-face {
   font-display: swap;
   font-family: "Plus Jakarta Sans";
@@ -84,21 +86,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.btn {
-  padding: 14px 45px;
-  border-radius: 28px;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  font-weight: 700;
-  color: #fff7f0;
-}
-.header__btn {
-  background-color: #030303;
-  &:hover {
-    background-color: #755cde;
-  }
 }
 
 .hero__container {
@@ -193,14 +180,6 @@ main {
   line-height: 1.3;
 }
 
-.about__btn {
-  background-color: #eb7565;
-  align-self: flex-start;
-  &:hover {
-    background-color: #f6a560;
-  }
-}
-
 .work__container {
   display: inline-block;
   margin-left: 170rem;
@@ -248,28 +227,6 @@ main {
   }
 }
 
-.cta__container {
-  max-width: 1111px;
-  border-radius: 10px;
-  padding: 8rem 9.5rem 8rem 6.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #030303;
-}
-.cta__info {
-  color: #fff7f0;
-  max-width: 540px;
-}
-.cta__title {
-  font-size: 4rem;
-  line-height: 1.3;
-  margin-bottom: 25px;
-}
-
-.cta__btn {
-  align-self: center;
-}
 .footer {
   padding-top: 35px;
   padding-bottom: 64px;
@@ -280,8 +237,7 @@ main {
 /* tablet */
 
 @media (max-width: 900px) {
-  .header {
-  }
+ 
   .container {
     padding-right: 4rem;
     padding-left: 4rem;
@@ -336,22 +292,7 @@ main {
     margin-bottom: 120px;
   }
 
-  .cta__container {
-    padding: 56px 75px 64px 75px;
-    max-width: 690px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .cta__info {
-    text-align: center;
-  }
-  .cta__title {
-    font-size: 32px;
-  }
-  .cta__text {
-    margin-bottom: 25px;
-  }
+ 
 
   .footer {
     padding-top: 20px;
@@ -373,10 +314,6 @@ main {
   .header__logo {
     width: 48px;
     height: 48px;
-  }
-  .btn {
-    font-size: 1.4rem;
-    padding: 8px 28px;
   }
 
   .hero__container {
@@ -429,10 +366,6 @@ main {
   .about__text {
     text-align: center;
     font-size: 1.6rem;
-  }
-
-  .about__btn {
-    align-self: center;
   }
 
   .work__title {

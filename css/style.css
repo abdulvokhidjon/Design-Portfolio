@@ -1,21 +1,7 @@
 @import url(./btn.css);
 @import url(./cta.css);
+@import url(./fonts.css);
 
-@font-face {
-  font-display: swap;
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/plus-jakarta-sans-v8-latin-500.woff2") format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/plus-jakarta-sans-v8-latin-700.woff2") format("woff2");
-}
 :root {
   --black-color: #030303;
 }
